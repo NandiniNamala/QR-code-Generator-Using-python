@@ -18,14 +18,12 @@ This project is a QR Code Generator built using Python and Tkinter. It allows us
 
 - Python
 - Tkinter
-- qrcode
+- qrcode Library
 - Pillow (PIL)
 
 ##  Project Files
 
-- `main.py`
 - `gui_qr_generator.py`
-- `gui_qr_generator_backup.py`
 - `logo.png`
 
 ## Installation
@@ -38,7 +36,7 @@ pip install qrcode pillow
 ##  Run the Project
 
 ```bash
-python gui_qr_generator_backup.py
+python gui_qr_generator.py
 ```
 ## Future Enhancements
 
@@ -47,8 +45,11 @@ python gui_qr_generator_backup.py
 - QR Code history
 - Logo inside QR Code
 - Multiple QR size options
+
+## output 
+The application Generates a QR code and saves it as a PNG image that can be Scanned using any QR code Scanner.
   
-## Developed By
+## Author
 
 **Nandini Namala**
 
